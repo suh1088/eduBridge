@@ -31,6 +31,8 @@ export default function CommunityPage() {
           type: "AI",
           content:
             "AI(인공지능)가 답변을 분석 중입니다. 잠시 후 답변이 등록될 예정입니다. 에듀브릿지의 선생님이 추가 답변을 달아드릴 수 있습니다.",
+          likeCount: 0,
+          replies: [],
         },
       ],
       createdAt: new Date().toISOString().slice(0, 10),
